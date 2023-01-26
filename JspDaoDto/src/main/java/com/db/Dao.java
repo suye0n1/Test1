@@ -83,6 +83,7 @@ public class Dao {
 		return post;
 	}
 	
+	
 	//쓰기
 	public void write(Dto w) {
 		try {
