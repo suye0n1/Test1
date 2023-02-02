@@ -21,6 +21,7 @@
 // 				cPage2 = Integer.parseInt("pNum");
 		pNum = "1";
 	} else {
+		//pNum을 숫자로 변경해도 오류가 난 이유 "pNUm"이라고 써서 문자로 인식했기 때문에
 		cPage2 = Integer.parseInt(pNum);
 	}
 	int count = dao2.getPostCount(); //한 페이지에 들어갈 데이터(테이블의 행)의 개수
